@@ -115,20 +115,6 @@ streamlit run app.py
 
 ---
 
-# 📸 Screenshots
-
-### Home Interface
-
-<img src="screenshots/home.png" width="800">
-
----
-
-### Prediction Interface
-
-<img src="screenshots/prediction.png" width="800">
-
----
-
 # 💡 How It Works
 
 1️⃣ Text dataset is tokenized using **Keras Tokenizer**  
@@ -157,7 +143,7 @@ streamlit run app.py
 
 **Anmol**
 
-Built with ❤️ using **Deep Learning + Streamlit**
+Built with ❤️by Anmol using **Deep Learning + Streamlit**
 
 ---
 
