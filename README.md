@@ -77,6 +77,7 @@ The application features a **modern GenAI style interface built with Streamlit**
 
 # 📂 Project Structure
 NextWordPredictor
+
 │
 ├── app.py
 ├── tokenizer.pkl
