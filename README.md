@@ -75,16 +75,17 @@ The application features a **modern GenAI style interface built with Streamlit**
 
 ---
 
-# 📂 Project Structure
-NextWordPredictor
+## 📂 Project Structure
 
-│
-├── app.py
-├── tokenizer.pkl
-├── max_len.pkl
-├── next_word_model.keras
-├── requirements.txt
-└── README.md
+```
+📦 NextWordPredictor
+ ┣ 📜 app.py
+ ┣ 📜 tokenizer.pkl
+ ┣ 📜 max_len.pkl
+ ┣ 📜 next_word_model.keras
+ ┣ 📜 requirements.txt
+ ┗ 📜 README.md
+```
 
 ---
 
