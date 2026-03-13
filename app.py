@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import time
 
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # -----------------------------
@@ -796,3 +796,4 @@ st.markdown("""
     Built with ❤️ by <a href="#">Anmol</a> · Deep Learning · LSTM · TensorFlow/Keras · Streamlit
 </div>
 """, unsafe_allow_html=True)
+
