@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=3000&color=00F7FF&center=true&vCenter=true&width=900&lines=GenAI+Next+Word+Predictor;Deep+Learning+LSTM+Text+Prediction;Streamlit+AI+Application;Machine+Learning+Project" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=3000&color=00F7FF&center=true&vCenter=true&width=900&lines=GenAI+Next+Word+Predictor;Deep+Learning+LSTM+Text+Prediction;AI+Autocomplete+System;Deployed+on+Hugging+Face+Spaces" />
 
 </p>
 
@@ -10,11 +10,31 @@
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras)
-![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy)
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge\&logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge\&logo=tensorflow\&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge\&logo=keras)
+![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge\&logo=numpy)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Spaces-yellow?style=for-the-badge\&logo=huggingface)
+
+</p>
+
+---
+
+# 🚀 Live Demo
+
+### 🌐 Try the Application
+
+👉 **Live App:**
+https://huggingface.co/spaces/Anmoldhiman17/next-word-predictor
+
+<p align="center">
+
+<a href="https://huggingface.co/spaces/Anmoldhiman17/next-word-predictor">
+
+<img src="https://img.shields.io/badge/Launch-App-yellow?style=for-the-badge&logo=huggingface">
+
+</a>
 
 </p>
 
@@ -22,68 +42,115 @@
 
 # 📌 Overview
 
-**GenAI Next Word Predictor** is a Deep Learning based text prediction system built using **LSTM (Long Short-Term Memory)** neural networks.
+**GenAI Next Word Predictor** is a **Deep Learning based text prediction system** that predicts the most probable next word based on a given input phrase.
 
-The system predicts the **most probable next word** based on a given input phrase and can also **generate sentences**.
+The model is built using **LSTM (Long Short-Term Memory)** neural networks and deployed as an interactive **AI web application using Streamlit**.
 
-The application features a **modern GenAI style interface built with Streamlit**.
+This project demonstrates a **complete end-to-end machine learning workflow** including:
+
+• Data preprocessing
+• Text tokenization
+• Sequence generation
+• Model training
+• Model inference
+• Web application deployment
+
+The application can also **generate full sentences** using probabilistic sampling.
 
 ---
 
 # 🧠 Model Architecture
 
-| Component | Description |
-|--------|-------------|
-| Model | LSTM Neural Network |
-| Framework | TensorFlow / Keras |
-| Tokenization | Keras Tokenizer |
-| Input | Seed phrase |
-| Output | Predicted next word |
+| Component    | Description         |
+| ------------ | ------------------- |
+| Model        | LSTM Neural Network |
+| Framework    | TensorFlow / Keras  |
+| Tokenization | Keras Tokenizer     |
+| Input        | Seed phrase         |
+| Output       | Predicted next word |
+| Deployment   | Hugging Face Spaces |
+
+---
+
+# ⚙️ Model Pipeline
+
+```
+Raw Text Dataset
+        │
+        ▼
+Text Cleaning
+        │
+        ▼
+Tokenization (Keras Tokenizer)
+        │
+        ▼
+Sequence Generation
+        │
+        ▼
+Padding Sequences
+        │
+        ▼
+LSTM Model Training
+        │
+        ▼
+Next Word Prediction
+        │
+        ▼
+Streamlit Web Application
+        │
+        ▼
+Deployment on Hugging Face Spaces
+```
 
 ---
 
 # ✨ Features
 
-✔ Next Word Prediction  
-✔ Sentence Generation  
-✔ Modern AI Interface  
-✔ Deep Learning Model  
-✔ Streamlit Web App  
-✔ Example Prompt Suggestions  
+✔ Next Word Prediction
+✔ Sentence Generation
+✔ Deep Learning LSTM Model
+✔ Modern AI Interface
+✔ Interactive Streamlit Web App
+✔ Example Prompt Suggestions
+✔ Deployed on Hugging Face Spaces
 
 ---
 
-# 🛠️ Technology Used
+# 🛠️ Technology Stack
 
-### Languages
+## Programming Language
 
-![Python](https://img.shields.io/badge/Python-yellow?style=flat-square&logo=python)
-
----
-
-### Frameworks
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-orange?style=flat-square&logo=tensorflow)
-![Keras](https://img.shields.io/badge/Keras-red?style=flat-square&logo=keras)
-![Streamlit](https://img.shields.io/badge/Streamlit-red?style=flat-square&logo=streamlit)
+Python
 
 ---
 
-### ML / Data Libraries
+## Frameworks
 
-![NumPy](https://img.shields.io/badge/Numpy-blue?style=flat-square&logo=numpy)
+TensorFlow
+Keras
+Streamlit
+Hugging Face Spaces
 
 ---
 
-## 📂 Project Structure
+## Machine Learning Libraries
+
+NumPy
+TensorFlow
+Keras
+
+---
+
+# 📂 Project Structure
 
 ```
 📦 NextWordPredictor
  ┣ 📜 app.py
  ┣ 📜 tokenizer.pkl
  ┣ 📜 max_len.pkl
- ┣ 📜 next_word_model.keras
+ ┣ 📜 next_word_model.h5
  ┣ 📜 requirements.txt
+ ┣ 📜 dataset.csv
  ┗ 📜 README.md
 ```
 
@@ -91,53 +158,85 @@ The application features a **modern GenAI style interface built with Streamlit**
 
 # ⚙️ Installation
 
-### Clone Repository
+### 1️⃣ Clone Repository
 
+```
+git clone https://github.com/anmoldhiman17/Next-Word-Predictor-LSTM.git
+```
 
-git clone https://github.com/yourusername/GenAI-NextWord-Predictor.git
+---
 
+### 2️⃣ Navigate to Folder
 
-### Navigate to Folder
+```
+cd Next-Word-Predictor-LSTM
+```
 
+---
 
-cd GenAI-NextWord-Predictor
+### 3️⃣ Install Dependencies
 
-
-### Install Dependencies
-
-
+```
 pip install -r requirements.txt
+```
 
+---
 
-### Run the Application
+### 4️⃣ Run the Application
 
-
+```
 streamlit run app.py
-
+```
 
 ---
 
 # 💡 How It Works
 
-1️⃣ Text dataset is tokenized using **Keras Tokenizer**  
+1️⃣ Text dataset is tokenized using **Keras Tokenizer**
 
-2️⃣ Sequences are generated from input text  
+2️⃣ Word sequences are generated from the dataset
 
-3️⃣ Model is trained using **LSTM network**  
+3️⃣ Sequences are padded to fixed length
 
-4️⃣ Model predicts the most probable next word  
+4️⃣ LSTM neural network learns word relationships
 
-5️⃣ Streamlit UI displays prediction
+5️⃣ Model predicts the **most probable next word**
+
+6️⃣ Streamlit interface displays predictions
+
+---
+
+# 📸 Application Preview
+
+Add your screenshot here:
+
+```
+/images/app-preview.png
+```
 
 ---
 
 # 📈 Future Improvements
 
-- Transformer based model
-- Word probability visualization
-- ChatGPT style interface
-- Deploy on HuggingFace Spaces
-- Add conversational interface
+• Transformer based language model
+• Word probability visualization
+• ChatGPT style autocomplete UI
+• Conversational chatbot interface
+• Mobile optimized UI
+• Training on larger datasets
+
+---
+
+# 🤝 Contribution
+
+Contributions are welcome.
+
+Steps to contribute:
+
+1. Fork the repository
+2. Create a new branch
+3. Make improvements
+4. Submit a Pull Request
 
 ---
 
@@ -145,7 +244,9 @@ streamlit run app.py
 
 **Anmol**
 
-Built with ❤️by Anmol using **Deep Learning + Streamlit**
+Machine Learning / AI Enthusiast
+
+Built with ❤️ using **Deep Learning + Streamlit**
 
 ---
 
