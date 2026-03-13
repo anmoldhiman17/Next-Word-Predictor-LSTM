@@ -210,7 +210,7 @@ streamlit run app.py
 
 <p align="center">
 
-<img src="./images/app-preview.png" width="900">
+<img src="images/Opera Snapshot_2026-03-13_223733_huggingface.co.pngg" width="900">
 
 </p>
 
