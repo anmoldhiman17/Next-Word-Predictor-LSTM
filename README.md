@@ -208,13 +208,11 @@ streamlit run app.py
 
 # 📸 Application Preview
 
-Add your screenshot here:
+<p align="center">
 
-```
-/images/app-preview.png
-```
+<img src="images/app-preview.png" width="900">
 
----
+</p>
 
 # 📈 Future Improvements
 
