@@ -620,31 +620,60 @@ model, tokenizer, max_len = load_all()
 # Prediction Function
 # -----------------------------
 def predict_next_word(text):
-    seq = tokenizer.texts_to_sequences([text])[0]
-    seq = pad_sequences([seq], maxlen=max_len, padding='pre')
 
-    pred = model.predict(seq, verbose=0)
-    pred_index = np.argmax(pred)
+    seq = tokenizer.texts_to_sequences([text])[0]
+    seq = pad_sequences([seq], maxlen=max_len-1, padding='pre')
+
+    pred = model.predict(seq, verbose=0)[0]
+
+    temperature = 0.7
+    pred = np.log(pred + 1e-8) / temperature
+    pred = np.exp(pred) / np.sum(np.exp(pred))
+
+    top_k = 5
+    top_indices = np.argsort(pred)[-top_k:]
+    top_probs = pred[top_indices]
+    top_probs = top_probs / np.sum(top_probs)
+
+    pred_index = np.random.choice(top_indices, p=top_probs)
+
+    next_word = ""
 
     for word, index in tokenizer.word_index.items():
         if index == pred_index:
-            return word
+            next_word = word
+            break
 
-    return ""
+    return next_word
 
 # -----------------------------
 # Sentence Generator
 # -----------------------------
 def generate_sentence(seed, n_words):
+
+    sentence = seed
+
     for _ in range(n_words):
-        next_word = predict_next_word(seed)
+
+        seq = tokenizer.texts_to_sequences([sentence])[0]
+        seq = pad_sequences([seq], maxlen=max_len-1, padding='pre')
+
+        pred = model.predict(seq, verbose=0)[0]
+        pred_index = np.argmax(pred)
+
+        next_word = ""
+
+        for word, index in tokenizer.word_index.items():
+            if index == pred_index:
+                next_word = word
+                break
 
         if next_word == "":
             break
 
-        seed += " " + next_word
+        sentence = sentence + " " + next_word
 
-    return seed
+    return sentence
 
 # -----------------------------
 # Main Card UI
@@ -796,5 +825,3 @@ st.markdown("""
     Built with ❤️ by <a href="#">Anmol</a> · Deep Learning · LSTM · TensorFlow/Keras · Streamlit
 </div>
 """, unsafe_allow_html=True)
-
-
