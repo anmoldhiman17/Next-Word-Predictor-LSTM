@@ -206,11 +206,11 @@ streamlit run app.py
 
 ---
 
-# 📸 Application Preview
+## 📸 Application Preview
 
 <p align="center">
 
-<img src="images/app-preview.png" width="900">
+<img src="./images/app-preview.png" width="900">
 
 </p>
 
