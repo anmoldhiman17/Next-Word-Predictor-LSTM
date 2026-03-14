@@ -139,7 +139,7 @@ Built with **TensorFlow/Keras** and deployed as a beautiful **Streamlit** web ap
 </td>
 
 <td align="center" width="25%">
-<img src="https://img.icons8.com/color/96/edit-text-file.png" width="60"/>
+<img src="https://img.icons8.com/color/96/artificial-intelligence.png" width="60"/>
 <br><b>📝 Sentence Generation</b>
 <br><sub>Generate complete, coherent sentences from any prompt</sub>
 </td>
