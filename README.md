@@ -136,14 +136,9 @@ Built with **TensorFlow/Keras** and deployed as a beautiful **Streamlit** web ap
 <br><sub>LSTM-powered next word prediction with high accuracy</sub>
 </td>
 <td align="center" width="25%">
-[<img src="https://img.icons8.com/color/96/edit-text-file.png" width="60"/>
-](https://img.icons8.com/color/96/artificial-intelligence.png)<br><b>📝 Sentence Generation</b>
+<img src="https://img.icons8.com/color/96/edit-text-file.png" width="60"/>
+<br><b>📝 Sentence Generation</b>
 <br><sub>Generate complete, coherent sentences from any prompt</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/color/96/rocket--v1.png" width="60"/>
-<br><b>🚀 Real-time Inference</b>
-<br><sub>Instant predictions with optimized model loading</sub>
 </td>
 <td align="center" width="25%">
 <img src="https://img.icons8.com/color/96/monitor--v1.png" width="60"/>
