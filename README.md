@@ -4,12 +4,13 @@
 </div>
 
 <!-- ==================== TYPING ANIMATION ==================== -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=🤖+AI-Powered+Next+Word+Prediction+Engine;🧠+Built+with+LSTM+Neural+Networks+%7C+TensorFlow;🚀+Deployed+Live+on+Hugging+Face+Spaces" alt="Typing SVG" />
-  </a>
-</div>
+<!-- ==================== TYPING ANIMATION ==================== -->
 
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3500&pause=1000&color=6C63FF&center=true&vCenter=true&width=900&lines=🤖+AI+Powered+Next+Word+Prediction;🧠+Built+with+LSTM+Neural+Networks;🚀+Deployed+on+Hugging+Face+Spaces" />
+
+</div>
 <!-- ==================== BADGES ROW 1 ==================== -->
 <div align="center">
 
