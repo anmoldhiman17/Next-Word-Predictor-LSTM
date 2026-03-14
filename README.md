@@ -129,49 +129,66 @@ Built with **TensorFlow/Keras** and deployed as a beautiful **Streamlit** web ap
 <div align="center">
 
 <table>
+
 <tr>
+
 <td align="center" width="25%">
 <img src="https://img.icons8.com/color/96/brain--v2.png" width="60"/>
 <br><b>🧠 Smart Prediction</b>
 <br><sub>LSTM-powered next word prediction with high accuracy</sub>
 </td>
+
 <td align="center" width="25%">
 <img src="https://img.icons8.com/color/96/edit-text-file.png" width="60"/>
 <br><b>📝 Sentence Generation</b>
 <br><sub>Generate complete, coherent sentences from any prompt</sub>
 </td>
+
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/rocket--v1.png" width="60"/>
+<br><b>🚀 Real-time Inference</b>
+<br><sub>Instant predictions with optimized model loading</sub>
+</td>
+
 <td align="center" width="25%">
 <img src="https://img.icons8.com/color/96/monitor--v1.png" width="60"/>
 <br><b>🎨 Modern UI</b>
 <br><sub>Beautiful Streamlit interface with AI-themed design</sub>
 </td>
+
 </tr>
+
 <tr>
+
 <td align="center" width="25%">
 <img src="https://img.icons8.com/color/96/cloud.png" width="60"/>
 <br><b>☁️ Cloud Deployed</b>
 <br><sub>Live on Hugging Face Spaces — no setup needed</sub>
 </td>
+
 <td align="center" width="25%">
 <img src="https://img.icons8.com/color/96/settings--v1.png" width="60"/>
 <br><b>⚙️ Configurable</b>
 <br><sub>Adjustable prediction parameters and word count</sub>
 </td>
+
 <td align="center" width="25%">
 <img src="https://img.icons8.com/color/96/database.png" width="60"/>
 <br><b>📊 Trained Dataset</b>
 <br><sub>Custom dataset with rich vocabulary coverage</sub>
 </td>
+
 <td align="center" width="25%">
 <img src="https://img.icons8.com/color/96/code.png" width="60"/>
 <br><b>🔓 Open Source</b>
 <br><sub>Fully open-source with documented codebase</sub>
 </td>
+
 </tr>
+
 </table>
 
 </div>
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- ==================== APP PREVIEW ==================== -->
